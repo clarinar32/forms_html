@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mine.css">
+
+    <title>loginform</title>
+</head>
+<body>
+    <div class="form-container">
+
+        <form action="#">
+        <img class="avatar" src="img/brain.jpg" alt=""><br>
+    <!-- Upload your avatar: /<input type="file"  name="file upload" ><br><br> -->
+   <label for="fname"> FirstName: </label> <br>
+   <input type="text" class="inputs" name="fname" placeholder="john" id="fname" tabindex="1"><br>
+
+    <label for="sname" >SecondName </label>
+    <input type="text" class="inputs"name="sname" placeholder="doe" id="sname" tabindex="2"><br>
+   <label for="lname">Surname: </label> <br>
+   <input type="text" class="inputs"name="lname" placeholder="clara" id="lname" tabindex="3"><br><br>
+
+   <label >Gender:</label> <input type="radio" name="male" id="">male 
+                       <input type="radio" name="female" id="">female  <br> <br>
+    <label>Study mode:</label><input type="checkbox" name="morning" id="">morning 
+                      <input type="checkbox" name="evening" id="">evening <br> <br>
+     <span>select your subject and country: </span><select class="inputs" name="subjects" id="">
+        <optgroup  label="subjects">
+        <option value="english"> english</option><br><br>
+        <option value="math">math</option><br><br>
+        <option value="science">science</option><br><br>
+       </optgroup>
+    </select>
+       <select class="inputs" name="country" id="">
+       <optgroup label="country">
+        <option value="kenya">kenya</option>
+        <option value="tanzania">tanzania</option>
+        <option value="uganda">uganda</option>
+       </optgroup>
+    </select><br><br>
+        <textarea name="comment" id="" cols="50" rows="5">add Comments here</textarea><br> <br>
+       
+        <button class="submit" type="submit">submit</button>
+    </form>
+</div>   
+</body>
+</html>

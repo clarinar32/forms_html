@@ -1,0 +1,79 @@
+body{
+    background-image: url(./img/blog-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form-container{
+    width: 30%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+form{
+    margin-left: 30px;
+}
+h3{
+    margin-top: 5%;
+    color: #fff;
+    margin-left: 30px;
+}
+.input{
+   width: 80%;
+   padding: 16px;
+   border-radius: 20px;
+   padding: 13px;
+   font-size: 16px;
+   color:white;
+   background-color: rgb(60, 60, 60);
+   opacity: .9;
+
+}
+.input:focus{
+    background-color: transparent;
+    outline: 0;
+}
+.signin{
+    text-align: center;
+    background-color: rgb(204, 161, 100);
+    color: #fff;
+    width: 90%;
+    border-radius: 20px;
+    padding: 14px;
+    font-size: 20px;
+}
+.others{
+    width: 100%;
+}.par1,.par2{
+    color: beige;
+}
+.par1{
+    width: 50%;
+    float: left;
+}
+.par2{
+    float: right;
+    width: 50%;
+
+}
+.par3{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.fbook{
+   
+    float: right;
+    margin-right: 20px;
+
+}
+.fbook,.twitter{
+    background-color: #fff;
+    width: 45%;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
